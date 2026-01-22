@@ -16,7 +16,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>needit_</internal_name>
-        <label_cache>[{"name":"325bdfc7-fd13-4c2c-bff3-7e197298b9bc.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"6941a604-48d9-49ee-8d65-2a841ae75e53":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.assigned_to.cost_center.manager","label":"Trigger - Record Created➛NeedIt Record➛Assigned to➛Cost center➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"cmn_cost_center","column_name":"manager","usedInstances":{"325bdfc7-fd13-4c2c-bff3-7e197298b9bc":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","usedInstances":{"62a9b1a2-ab1b-4039-90b5-35ecfc6fe384":["record"],"325bdfc7-fd13-4c2c-bff3-7e197298b9bc":["record"],"21bb1afc-aaf3-4afe-adac-be6b271ac9b0":["record"],"26fdcce2-3949-4ae4-89aa-ef58daf9da18":["record"],"0e979379-a597-4cc3-bf53-5dc49d535299":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","usedInstances":{"62a9b1a2-ab1b-4039-90b5-35ecfc6fe384":["record"],"325bdfc7-fd13-4c2c-bff3-7e197298b9bc":["record"],"21bb1afc-aaf3-4afe-adac-be6b271ac9b0":["record"],"26fdcce2-3949-4ae4-89aa-ef58daf9da18":["record"],"0e979379-a597-4cc3-bf53-5dc49d535299":["record"]},"attributes":{}},{"name":"Created_1.current.assigned_to.cost_center.manager","label":"Trigger - Record Created➛NeedIt Record➛Assigned to➛Cost center➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"cmn_cost_center","column_name":"manager","usedInstances":{"325bdfc7-fd13-4c2c-bff3-7e197298b9bc":["approval_conditions"]}},{"name":"325bdfc7-fd13-4c2c-bff3-7e197298b9bc.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"6941a604-48d9-49ee-8d65-2a841ae75e53":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>d38785d983e232108d691530ceaad3c6</master_snapshot>
         <master_snapshot_digest/>
         <name>Needit フルフィルメント</name>
@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>93fda65883aa32108d691530ceaad3f1</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>Needit フルフィルメント</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -45,11 +45,11 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_hub_flow_93fda65883aa32108d691530ceaad3f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-20 05:15:24</sys_updated_on>
+        <sys_updated_on>2026-01-20 05:45:36</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record display_value="Created 2026-01-19 21:15:14">db1d3e6d8322f2108d691530ceaad387</version_record>
+        <version_record display_value="Created 2026-01-19 21:45:37">14140fe98362f2108d691530ceaad31b</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=93fda65883aa32108d691530ceaad3f1"/>
     <sys_variable_value action="delete_multiple" query="document_key=93fda65883aa32108d691530ceaad3f1"/>
@@ -395,10 +395,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-20 04:42:39</sys_created_on>
         <sys_id>7da5366d83eeb2108d691530ceaad328</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-20 05:13:35</sys_updated_on>
+        <sys_updated_on>2026-01-20 05:45:36</sys_updated_on>
         <ui_id>7abf4019-dfc3-42ac-bcf7-9d1259bb6cbf</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -422,10 +422,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-20 02:23:53</sys_created_on>
         <sys_id>95e5566983aab2108d691530ceaad352</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-20 05:13:35</sys_updated_on>
+        <sys_updated_on>2026-01-20 05:45:36</sys_updated_on>
         <ui_id>6941a604-48d9-49ee-8d65-2a841ae75e53</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1US24TQRC9Cpr1eDQfjx17F4EiIQGRSJQNRKOa/tgterqH7h4nxvIBEGKXU8CSA3AbyDGono9jEUcglCU796vuqvdq3vMm0I2rG2fP9bG1YqGC+ZvLMBDKY/h7EyioWDAPiFZUOKFV0QJhsALZ+MLPm2+3Xz/9+Pj99stnhKmwtYT1xeEqWQpJDeun1GCwl2MmmG9+K7l1zQoJJZPY5MwZoRb4XFA88Rh4MiMJydJJlsZxejROyklWJinNgEGG94aHTwfST160SPigGj8PcTtM0oZ6WkkcBuzaMUUZjuYgLQuDChQFp816hxgG9FTJO2AplMN2gb98bcUH7J3mub/IGWokrCvujkW/tg4mSy0IO609wQ5xUMr+DdGyqdSrTodfOOPQSDcsHJHGYj9We9KeRU+Jny311eth4IlQrcC+KDUBuTuBwzWUjWPWfxgmWYWNigrqGpdT1EavRPsYuVTRQuIh4lJf4VDvoAiIJx7hjiA6QfxZC1+AEV7FS2yDjzuaJVhBitZt2M4ZlLBt11K8bzyhTmAvpei2gRcsMaJ2xzhnxXrW2/C+VfdcutlkaV5STqYjTpNsNCYpGZWcZ6MpS2bTdHZUzkoSITdUB7KwDhzbbt82cZzRDkUH3LP3Y7V9jFzMIOd5EueHczGeHMrFgUQ8HIb0D2Hwn+8vsxDH8f8w7IdB2KIzda+tHf7PWbj0xu8m2M43lBFhkci5x54P/+6+sEYDCLIPXWnzzku4w7a/ANqIL+cnBgAA</values>
